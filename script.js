@@ -17,3 +17,18 @@ console.log(document.getElementsByClassName('para'));
 // getElementsByTagName
 
 console.log(document.getElementsByTagName('p'));
+
+
+// The querySelectorAll() method returns all elements that matches a CSS selector(s).
+
+console.log(document.querySelector('.para'));
+console.log(document.querySelectorAll('.para'));
+
+
+console.log(document.querySelector('#ita'));
+console.log(document.querySelectorAll('#ita'));
+
+
+console.log(document.querySelector('p'));
+console.log(document.querySelectorAll('p'));
+
