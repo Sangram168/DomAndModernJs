@@ -33,3 +33,44 @@ console.log(document.querySelectorAll('#ita'));
 console.log(document.querySelector('p'));
 console.log(document.querySelectorAll('p'));
 
+// updating Existing Content
+
+// innerHTML - It show you the content/element inside an element
+
+let con = document.querySelector('.para');
+console.log(con);
+
+console.log(con.innerHTML); // get element/content inside an element
+
+con.innerHTML = ' '; // set element/content inside an element
+console.log(con);
+
+// text content - get/set textual content
+
+let co =document.querySelector('.para');
+console.log(co.textContent = 'text content is set');
+console.log(co);
+
+console.log(co.textContent)
+
+// innerText - It also set/get textual content but it not show text if any case display is hidden
+
+let con2 = document.querySelector('.heading2');
+console.log(con2);
+con2.innerText = 'Adding heading2'
+console.log(con2.innerText);
+
+// outerHtml - The outerHTML property sets or returns the HTML element,
+// including attributes, start tag, and end tag.
+
+let tx = document.querySelector('small');
+console.log(tx);
+
+console.log(tx.outerHTML);
+
+
+
+
+
+
+
