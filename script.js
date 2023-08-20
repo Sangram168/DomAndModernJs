@@ -13,3 +13,7 @@ console.log(document.getElementById('')); // return null
 // It return array like object
 
 console.log(document.getElementsByClassName('para'));
+
+// getElementsByTagName
+
+console.log(document.getElementsByTagName('p'));
