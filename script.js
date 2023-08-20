@@ -7,3 +7,9 @@
 
 console.log(document.getElementById('heading1'));
 console.log(document.getElementById('')); // return null
+
+
+//getElementsByClassName() method returns a collection of elements with a specified class name(s).
+// It return array like object
+
+console.log(document.getElementsByClassName('para'));
