@@ -2,6 +2,7 @@
 // It is like tree like structure
 // It convert html code into js object
 
+// Access Element
 // getElementByid() - the method return an element with specified id
 // it returns a single object
 
