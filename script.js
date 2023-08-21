@@ -94,6 +94,19 @@ newPara1.textContent = 'I am the text';
 newPara.appendChild(newPara1);
 console.log(newPara);
 
+// The insertAdjacentHTML() method inserts HTML code into a specified position
+// you can put beforeend, afterend, beforebegin, afterend
+let hd = document.querySelector('.hh');
+console.log(hd);
+
+let hd1 = document.createElement('h4');
+hd1.textContent = 'ABCD';
+
+console.log(hd1);
+
+hd.insertAdjacentElement("beforeend", hd1);
+console.log(hd);
+
 
 
 
