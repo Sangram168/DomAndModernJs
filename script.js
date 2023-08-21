@@ -80,6 +80,24 @@ console.log(newItm);
 itm.appendChild(newItm);
 console.log(itm); // paragraph added at the end
 
+// Creating TextNode
+
+let newPara = document.createElement('p');
+let textPara = document.createTextNode('I am the text');
+newPara.appendChild(textPara);
+console.log(newPara);
+
+// 2nd method
+
+let newPara1 = document.createElement('p');
+newPara1.textContent = 'I am the text';
+newPara.appendChild(newPara1);
+console.log(newPara);
+
+
+
+
+
 
 
 
