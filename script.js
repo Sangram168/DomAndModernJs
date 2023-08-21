@@ -69,6 +69,20 @@ console.log(tx);
 console.log(tx.outerHTML);
 
 
+// Adding New Element/Content
+
+let itm = document.querySelector('.item');
+console.log(itm);
+
+let newItm = document.createElement('p');
+console.log(newItm);
+
+itm.appendChild(newItm);
+console.log(itm); // paragraph added at the end
+
+
+
+
 
 
 
