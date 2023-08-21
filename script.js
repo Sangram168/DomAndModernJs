@@ -105,7 +105,7 @@ hd1.textContent = 'ABCD';
 console.log(hd1);
 
 hd.insertAdjacentElement("beforeend", hd1);
-console.log(hd);
+console.log(hd); // element add at the just before the end
 
 
 
