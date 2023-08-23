@@ -129,6 +129,55 @@ console.log(bo);
 
 console.log(bo.parentElement); // italic element its parent
 
+// style page content
+
+let con3 = document.querySelector('#heading1');
+console.log(con3);
+
+con3.style.color = 'red';
+
+con3.style.backgroundColor = 'green';
+
+// cssText - set multiple property to content
+
+con3.style.cssText = 'color:green; background-color:yellow; font:4em;'
+
+// set Attribute - It not only add style to content but also help to add attribute to the element/content
+
+con3.setAttribute('style', 'color:blue');
+con3.setAttribute("class", "h1");
+
+// className -  The className property sets or returns an element's class attribute
+
+let com = document.querySelector('.first.second.third');
+console.log(com);
+
+let v2 = com.className += " tyh"; // add new class(string)
+console.log(v2);
+
+let sp1 = v2.split(' '); // covert into string into array
+console.log(sp1);
+
+let sp2 = v2.toString(); // array convert into array
+console.log(sp2);
+
+// classList - It return the array of list
+
+let ar = com.classList;
+console.log(ar);
+
+ar.add('fourth'); // add element
+ar.remove('fourth'); // remove element
+ar.toggle('fourth'); // if element present then it will remove but if not present then add
+
+let pe = ar.contains('first'); // check element present or not
+console.log(pe);
+
+
+
+
+
+
 
 
 
