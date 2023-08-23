@@ -108,6 +108,31 @@ hd.insertAdjacentElement("beforeend", hd1);
 console.log(hd); // element add at the just before the end
 
 
+// removeChild() - opposite to append child
+// Need to know child element to remove
+// Need to know parent element
+
+
+let hed = document.querySelector('.hd1');
+console.log(hed);
+
+ let chd = document.querySelector('.pr1');
+// console.log(chd);
+
+let sp = hed.removeChild(chd);
+console.log(sp);
+
+// how to find child element parent
+
+let bo = document.querySelector('.b1');
+console.log(bo);
+
+console.log(bo.parentElement); // italic element its parent
+
+
+
+
+
 
 
 
