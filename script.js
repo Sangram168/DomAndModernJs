@@ -175,6 +175,59 @@ console.log(pe);
 
 
 
+// Event Listener - Event Listener in JavaScript is a procedure or method executed when any event
+// occurs like a click event. An event is something that occurs in HTML elements.
+
+// addEventListener() - The JavaScript addEventListener() method allows you to set up functions to be 
+// called when a specified event happens, such as when a user clicks a button
+let co2 = document.querySelector('.hh');
+console.log(co2);
+
+let co3 = co2.addEventListener('click', function(){ // it change background color
+    co2.style.background = 'red'; 
+});
+
+//
+let co5 = document.querySelector('h3');
+console.log(co2);
+
+co5.addEventListener('click', function(){
+    co5.style.background = 'green';
+});
+
+// on click message print
+
+document.addEventListener('click', function(){
+    console.log('I have clicked on the document');
+});
+
+
+// removeEventListener() - The removeEventListener() method of the EventTarget interface removes an event listener previously 
+// registered with EventTarget.addEventListener() from the target.
+// Note - In js function are object
+// It needs same target, same type and same function
+
+// document.addEventListener('click', function(){
+//     console.log('Clicked');
+// });
+
+// document.removeEventListener('click', function(){
+//     console.log('Clicked'); // not work removeEventListener() because these are two different object on different location
+// });
+
+function print(){
+    console.log('Hi');
+}
+
+document.addEventListener('alert', print);
+
+document.removeEventListener('alert', print);
+
+
+
+
+
+
 
 
 
