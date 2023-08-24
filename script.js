@@ -224,6 +224,16 @@ document.addEventListener('alert', print);
 document.removeEventListener('alert', print);
 
 
+// EventObject - When event occurs addEventListener() function receive an event object and object has lot of information about event
+
+let wq = document.querySelector('.it');
+
+wq.addEventListener('click', function(event){
+
+    console.log(event);
+});
+
+
 
 
 
