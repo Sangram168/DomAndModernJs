@@ -233,7 +233,17 @@ wq.addEventListener('click', function(event){
     console.log(event);
 });
 
+// preventDefault() - It prevent the default action of an event 
 
+let links = document.querySelectorAll('a');
+console.log(links);
+let lin = links[1];
+console.log(lin);
+
+lin.addEventListener('click', function(event){
+    event.preventDefault();
+    console.log('hello world');
+})
 
 
 
